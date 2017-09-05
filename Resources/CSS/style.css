@@ -15,6 +15,7 @@ body {
 .logo img {
   height: 32px;
   float: left;
+  padding-top: 15px;
 }
 .logo p {
   font-size: 20px;
@@ -29,6 +30,7 @@ li {
   float: right;
   padding-right: 24px;
 }
+
 
 .banner-container ,
 .about-container ,
@@ -46,13 +48,13 @@ width: 100%;
   float: left;
   width: 60%;
 }
-
-.about-container {
-
+#banner a {
+  color: white;
+  background-color: gray;
+  padding: 8px 80px;
 }
-#main-about {
-  float: left;
-}
+
+
 #main-about img{
   padding: 32px 24px;
   width: 60%;
@@ -60,9 +62,48 @@ width: 100%;
 #main-about h1 {
   padding-left: 24px;
   padding-bottom: 24px;
+  margin-top: 0;
 }
 #main-about p {
   padding-left: 24px;
   padding-bottom: 32px;
   line-height: 30px;
+  font-size: 14px;
+}
+
+.list-about {
+  width: 50%;
+  float: right;
+  top: -800px;
+  left: 47px;
+  position: relative;
+}
+.list-1 ,
+.list-2 ,
+.list-3 {
+  width: 40%;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+.list-3 {
+  background-color: lightgray;
+}
+.list-1 img ,
+.list-2 img ,
+.list-3 img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+  float: left;
+}
+
+
+.thesis-container {
+  background-color: lightgray;
+  width: 100%;
+}
+#thesis h1 {
+  text-align: center;
+  margin: 32px auto;
 }
