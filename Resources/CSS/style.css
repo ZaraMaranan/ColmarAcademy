@@ -55,6 +55,10 @@ width: 100%;
 }
 
 
+.about-container {
+  float: left;
+  width: 59%;
+}
 #main-about img{
   padding: 32px 24px;
   width: 60%;
@@ -72,22 +76,42 @@ width: 100%;
 }
 
 .list-about {
-  width: 50%;
   float: right;
-  top: -800px;
-  left: 47px;
-  position: relative;
-}
-.list-1 ,
-.list-2 ,
-.list-3 {
   width: 40%;
-  border: 1px solid lightgray;
   display: flex;
   flex-direction: column;
+  padding-bottom: 32px;
+  padding-top: 16px;
+  border-left: 1px solid lightgray;
+}
+.list-about h2 {
+  margin-bottom: 0px;
+}
+.list-about a {
+  margin-top: 0px;
+  font-size: 14px;
+  color: blue;
+}
+.list-about p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+.list-about #text {
+  vertical-align: middle;
+}
+
+.list-2 {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 .list-3 {
   background-color: lightgray;
+}
+.list-3 {
+  line-height: 25px;
 }
 .list-1 img ,
 .list-2 img ,
@@ -99,11 +123,11 @@ width: 100%;
 }
 
 
-.thesis-container {
-  background-color: lightgray;
+.start-container {
+  background-color: #f2f2f2;
   width: 100%;
 }
-#thesis h1 {
+#start h1 {
   text-align: center;
   margin: 32px auto;
 }
