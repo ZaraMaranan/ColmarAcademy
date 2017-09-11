@@ -129,30 +129,55 @@ width: 100%;
   text-align: center;
 }
 .start-container h1 {
-  padding-top: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 #start {
-  padding: 32px 72px;
-}
-#start img {
-  padding-bottom: 16px;
-}
-#start h2 {
   margin-top: 0px;
+  margin-left: 72px;
+  margin-right: 72px;
   margin-bottom: 0px;
 }
+#start-two {
+margin: 32px 72px;
+}
+#start ,
+#start-two {
+  display: inline-flex;
+  align-self: center;
+}
+.start-container img {
+  padding-bottom: 16px;
+}
+.start-container h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 16px;
+}
+.start-container p {
+  margin-top: 0px;
+  margin-bottom: 24px;
+  margin-left: 16px;
+}
+#courses {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
 #start img ,
-#start div {
+#box ,
+#start-two img {
   width: 325px;
 }
-#start div {
+#start div ,
+#start-two div {
   background-color: white;
     display: inline-block;
     font-size: 14px;
     text-align: left;
 }
-#start #software ,
-#start #computer ,
-#start #design {
-  margin-bottom: 32px;
+#computer ,
+#business {
+  margin-left: 32px;
+  margin-right: 32px;
 }
